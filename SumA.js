@@ -5,4 +5,4 @@ for(let i=0;i<arr.length;i++){
 }
 return sum;
 }
-console.log(summ([1,2,3,4]));
+console.log(summ([1,2,3,4]));//10

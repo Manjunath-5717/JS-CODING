@@ -1,5 +1,5 @@
 function test(str) {
-  return  str.length;
+  return str.length;
 }
 
-console.log(test("manjunathAR"));
+console.log(test("manjunath"));

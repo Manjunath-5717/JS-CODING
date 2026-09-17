@@ -12,10 +12,11 @@
 // console.log(evenN([1,2,4,6,8,4,5,7,7]));
 
 
-let arr=[2,4,6,8,7,5,3,1];
+let arr=[2,4,6,7,5,8];
 
 function isEven(){
-  const evenNo=arr.filter((item) =>item %2===0);
-  return evenNo;
+  const evenNo=arr.filter((item)=> item %2===0);
+    return evenNo;
+  
 }
 console.log(isEven());

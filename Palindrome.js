@@ -1,10 +1,8 @@
-function plai(str){
+function pali(str){
   let res="";
-
   for(let i=str.length-1;i>=0;i--){
     res=res+str.charAt(i);
-
   }
-  return res==str;
+  return res;
 }
-console.log(plai("madam"));
+console.log(pali("manju"));
